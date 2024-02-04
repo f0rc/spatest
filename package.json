@@ -1,0 +1,16 @@
+{
+  "name": "debuggerking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:root": "pnpm --filter @uh/root-config start",
+    "start:react": "pnpm --filter @uh/react start",
+    "start:vue": "pnpm --filter @uh/vue start",
+    "start:ang": "pnpm --filter @uh/angular serve:single-spa:ang",
+    "start": "concurrently --names \"ROOT,REACT,VUE,ANGULAR\" \"pnpm start:root\" \"pnpm start:react\" \"pnpm start:vue\" \"pnpm start:ang\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
