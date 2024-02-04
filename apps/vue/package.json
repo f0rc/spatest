@@ -24,7 +24,7 @@
     "vue-cli-plugin-single-spa": "~3.3.0"
   },
   "eslintConfig": {
-    "root": true,
+    "root": "",
     "env": {
       "node": true
     },
