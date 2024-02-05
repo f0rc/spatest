@@ -9,7 +9,7 @@
     "start:vue": "pnpm --filter @uh/vue start",
     "start:ang": "pnpm --filter @uh/angular serve:single-spa:ang",
     "start:ang2": "pnpm --filter @uh/angular2 serve:single-spa:angular",
-    "start": "concurrently --names \"ROOT,REACT,VUE,ANGULAR,AG2\" -c \"white,blue,green,red,red\" \"pnpm start:root\" \"pnpm start:react\" \"pnpm start:vue\" \"pnpm start:ang\" \"pnpm start:ang2\""
+    "start": "concurrently --names \"ROOT,REACT,VUE,ANGULAR,AG2,STYLE\" -c \"white,blue,green,red,red,cyan\" \"pnpm start:root\" \"pnpm start:react\" \"pnpm start:vue\" \"pnpm start:ang\" \"pnpm start:ang2\""
   },
   "keywords": [],
   "author": "",
