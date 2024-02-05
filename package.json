@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:root": "pnpm --filter @uh/root-config start",
-    "start:react": "pnpm --filter @uh/react start",
+    "start:react": "pnpm --filter @uh/react start:standalone",
     "start:vue": "pnpm --filter @uh/vue start",
     "start:ang": "pnpm --filter @uh/angular serve:single-spa:ang",
     "start:ang2": "pnpm --filter @uh/angular2 serve:single-spa:angular",
